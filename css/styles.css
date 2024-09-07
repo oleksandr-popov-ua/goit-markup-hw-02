@@ -11,22 +11,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
-button {
-  cursor: pointer;
-}
 /*============= HEADER STYLES =============*/
-.text-raleway-iris {
-  font-weight: 700;
+.logo-link-header {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-link-header {
-  font-family: "Raleway", sans-serif;
+.text-raleway-navyblue {
   font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -45,11 +42,13 @@ button {
 .menu-link:active {
   color: #404bbf;
 }
+.header-address {
+  font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -59,13 +58,15 @@ button {
 /*============= /HEADER STYLES =============*/
 
 /*============= TOP STYLES =============*/
-h1 {
+.section-top {
+  background-color: #2e2f42;
+}
+.top-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  background-color: #2e2f42;
 }
 .order-button {
   font-weight: 500;
@@ -74,6 +75,13 @@ h1 {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+button {
+  cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 /*============= /TOP STYLES =============*/
 
@@ -97,13 +105,19 @@ h1 {
 /*============= /ADV STYLES =============*/
 
 /*============= TEAM STYLES =============*/
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
+}
 .team-title {
+    text-transform: capitalize
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #f4f4fd;
 }
 .team-member {
   font-weight: 500;
@@ -124,6 +138,7 @@ h1 {
 
 /*============= PORTF STYLES =============*/
 .portf-title {
+    text-transform: capitalize
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -146,20 +161,23 @@ h1 {
 /*============= /PORTF STYLES =============*/
 
 /*============= FOOTER STYLES =============*/
+.page-footer{background-color: #2e2f42;}
 .logo-link-footer {
+    font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.text-raleway-cloud{ 
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
 /*============= /FOOTER STYLES =============*/
