@@ -11,6 +11,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+button {
+  cursor: pointer;
+}
 /*============= HEADER STYLES =============*/
 .logo-link-header {
   font-family: "Raleway", sans-serif;
@@ -76,9 +79,7 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-button {
-  cursor: pointer;
-}
+
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
@@ -87,7 +88,7 @@ button {
 
 /*============= ADV STYLES =============*/
 .adv-title {
-  display: none;
+  visibility: hidden;
 }
 .adv-name {
   font-weight: 500;
@@ -112,11 +113,11 @@ button {
   background-color: #ffffff;
 }
 .team-title {
-    text-transform: capitalize
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-member {
@@ -138,11 +139,11 @@ button {
 
 /*============= PORTF STYLES =============*/
 .portf-title {
-    text-transform: capitalize
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portf-name {
@@ -161,9 +162,11 @@ button {
 /*============= /PORTF STYLES =============*/
 
 /*============= FOOTER STYLES =============*/
-.page-footer{background-color: #2e2f42;}
+.page-footer {
+  background-color: #2e2f42;
+}
 .logo-link-footer {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -171,7 +174,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.text-raleway-cloud{ 
+.text-raleway-cloud {
   color: #f4f4fd;
 }
 .footer-text {
